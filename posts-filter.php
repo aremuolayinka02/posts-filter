@@ -2,42 +2,13 @@
 /*
 Plugin Name: Posts Filter
 Description: Filter posts based on missing featured image, tags, author, or categories.
-Version: 1.1
+Version: 1.2
 Author: Olayinka
 Author URI: https://github.com/aremuolayinka02
 Plugin URI: https://github.com/aremuolayinka02/posts-filter
 */
 
 if (!defined('ABSPATH')) exit;
-
-// Add main menu and submenus
-add_action('admin_menu', function() {
-    add_menu_page(
-        'Posts Filter',
-        'Posts Filter',
-        'manage_options',
-        'posts-filter',
-        'pf_posts_page',
-        'dashicons-filter',
-        25
-    );
-    add_submenu_page(
-        'posts-filter',
-        'Posts',
-        'Posts',
-        'manage_options',
-        'posts-filter',
-        'pf_posts_page'
-    );
-    add_submenu_page(
-        'posts-filter',
-        'Settings',
-        'Settings',
-        'manage_options',
-        'posts-filter-settings',
-        'pf_settings_page'
-    );
-});
 
 // Register settings
 add_action('admin_init', function() {
