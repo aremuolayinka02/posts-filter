@@ -5,7 +5,7 @@ Description: Filter posts based on missing featured image, tags, author, or cate
 Version: 1.1
 Author: Olayinka
 Author URI: https://github.com/aremuolayinka02
-Plugin URI: https://github.com/olayinka/posts-filter
+Plugin URI: https://github.com/aremuolayinka02/posts-filter
 */
 
 if (!defined('ABSPATH')) exit;

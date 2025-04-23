@@ -31,7 +31,7 @@ Usage:
 Version: 1.1
 Author: Olayinka
 Plugin URI: https://github.com/olayinka/posts-filter
-Author URI: https://github.com/aremuolayinka02
+Author URI: https://github.com/aremuolayinka02/posts-filter
 
 Changelog:
 ----------
